@@ -1,0 +1,16 @@
+#header{
+    background: #f2f2f2;
+    color: #999;
+    height: 32px;
+    font-weight: 100;
+    font-size: 12px;
+}
+#login-contain{
+    line-height: 32px;
+}
+#login-contain a:hover{
+    color: red;
+}
+#login-contain a{
+    margin-left: 20px;
+}
