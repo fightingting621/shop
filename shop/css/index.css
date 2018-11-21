@@ -7,10 +7,34 @@
 }
 #login-contain{
     line-height: 32px;
+    float: left;
 }
 #login-contain a:hover{
     color: red;
 }
 #login-contain a{
     margin-left: 20px;
+}
+#header-menu{
+    float: right;
+    line-height: 32px;
+}
+#header-menu .menu{
+    float: left;
+    line-height: 32px;
+    padding: 0 14px;
+    position: relative;
+}
+#header-menu .iconfont{
+    color: red;
+    font-size: 12px;
+}
+#header-menu .menu-tri::after{
+    content:'';
+    width: 0;
+    border: 4px solid transparent;
+    border-top-color: #999999;
+    position: absolute;
+    right: 0;
+    top: 14px;
 }
