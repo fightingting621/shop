@@ -116,11 +116,139 @@
 }
 #search-contain .search-list li{
     float: left;
+    margin-top: 3px;
 }
-#search-contain .search-list .search-item{
+#search-contain .search-list li a{
+    color: #cccccc;
+}
+#search-contain .search-list .search-item>a{
     color: red;
 }
 #search-contain .search-list .line{
     float: left;
-    margin:0 8px;
+    margin:3px 8px;
+    color: #cccccc;
+}
+#search{
+    height: 130px;
+}
+#second-nav{
+    margin-left: 236px;
+    height:30px;
+}
+#second-nav img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+#second-nav ul{
+    float: left;
+    margin-top: 5px;
+}
+#second-nav li{
+    float: left;
+    padding-right: 20px;
+    font-size: 16px;
+}
+#second-nav li:hover a{
+    color: #f00;
+}
+#second-nav li a{
+    color: #000;
+}
+#banner .bannner-img a{
+    width: 1230px;
+    display: block;
+    margin: 0 auto;
+}
+#banner li a img{
+    width: 100%;
+}
+#banner{
+    border-top: 2px solid #ff0000;
+    position: relative;
+}
+#banner .nav{
+    position: absolute;
+    background: rgba(0,0,0,.1);
+    top: -32px;
+    height: 557px;
+}
+#banner .nav>li{
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+}
+#banner .nav>li>a{
+    color: #ffffff;
+    font-weight: 100;
+}
+#banner .wrapper .nav .iconfont{
+    width: 16px;
+    height: 31px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+#banner .wrapper .nav a{
+    margin-left: 10px;
+}
+#banner .wrapper .nav .banner-head{
+    background: #ff0000;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff;
+}
+#banner .wrapper .nav .banner-head span{
+    margin-left: 10px;
+}
+#banner .wrapper .nav .banner-head i{
+    font-size:18px ;
+}
+#banner .nav li:hover{
+    background: #ffffff;
+}
+#banner .nav .girls:hover .banner-menu{
+    display: block;
+}
+#banner .nav>li:hover>a{
+    color: red;
+}
+#banner .nav>li:hover .iconfont{
+    color: red;
+}
+.wrapper{
+    position: relative;
+}
+#banner .nav .banner-menu{
+    position: absolute;
+    width: 852px;
+    height: 524px;
+    background: #ffffff;
+    left: 200px;
+    top: 33px;
+    padding-top: 10px;
+    padding-left: 13px;
+    display: none;
+}
+#banner .nav .banner-menu .banner-menu-left .banner-menu-list{
+    float: left;
+    width: 493px;
+    border-bottom: 1px dashed #cccccc;
+}
+#banner .nav .banner-menu .banner-menu-left .banner-menu-head{
+    float: left;
+}
+#banner .nav .banner-menu .banner-menu-left .banner-menu-list>li{
+    float: left;
+}
+#banner .banner-menu .banner-menu-left{
+    width: 643px;
+    height: 500px;
+    float: left;
+}
+#banner .nav .banner-menu .banner-menu-left .banner-menu-list a{
+    color: #000000;
+}
+#banner .nav .banner-menu .banner-menu-left .banner-menu-list .banner-change>a{
+    color: red;
 }
