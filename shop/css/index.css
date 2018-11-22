@@ -29,12 +29,51 @@
     color: red;
     font-size: 12px;
 }
+#header-menu .menu-tri{
+    position: relative;
+}
 #header-menu .menu-tri::after{
     content:'';
     width: 0;
     border: 4px solid transparent;
     border-top-color: #999999;
     position: absolute;
-    right: 0;
+    right: 2px;
     top: 14px;
+    transform-origin: 5px 2px;
+    transition:transform 0.1s linear;
+}
+#header-menu .menu-tri:hover::after{
+    transform: rotate(180deg);
+}
+#header-menu .menu-tri:hover{
+    background: #ffffff;
+}
+#header-menu .menu-tri:hover>a{
+    color: red;
+    text-decoration: underline;
+}
+#header-menu .menu-ntri:hover a{
+    color: deepskyblue;
+}
+#header-menu .menu-ntri:hover .iconfont{
+    color: deepskyblue;
+}
+#header-menu .menu-tri .sub-menu{
+    width: 100px;
+    border: 1px solid #cccccc;
+    border-top:none;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+#header-menu .menu-tri .sub-menu li{
+    padding: 0 14px;
+}
+#header-menu .menu-tri:hover .sub-menu{
+    display: block;
+}
+#header-menu .menu-tri .sub-menu a:hover{
+    color: red;
+    text-decoration: underline;
 }
