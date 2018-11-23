@@ -246,9 +246,67 @@
     height: 500px;
     float: left;
 }
+#banner .banner-menu .banner-menu-right{
+    float: left;
+    width: 209px;
+}
 #banner .nav .banner-menu .banner-menu-left .banner-menu-list a{
     color: #000000;
 }
 #banner .nav .banner-menu .banner-menu-left .banner-menu-list .banner-change>a{
     color: red;
+}
+#banner .banner-menu .banner-menu-right img{
+    width: 73px;
+    margin:3px 4px;
+}
+#banner .banner-menu .banner-menu-right .right-spe{
+    width: 162px;
+    margin: 3px 19px;
+}
+#brand{
+    background: #e8e8e8;
+    height: 500px;
+    padding-top: 30px;
+}
+#brand .brand-type{
+    float: left;
+}
+#brand .brand-type .bimg-uns{
+    width: 234px;
+}
+#brand .brand-type .bimg-s{
+    width: 485px;
+    margin-left: 13px;
+}
+#brand .brand-type .bt1{
+    width: 234px;
+    height: 55px;
+    background: #ffffff;
+}
+#brand .brand-type .bt2{
+    width: 485px;
+    height: 55px;
+    background: #ffffff;
+    margin-left: 13px;
+    position: relative;
+}
+#brand .brand-title span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-left: 4px;
+}
+#brand .brand-type .brand-title a{
+    background: url("../img/more.png") center no-repeat;
+    background-size: 20px 20px;
+    width: 56px;
+    height: 54px;
+    float: right;
+}
+#brand .brand-title .more{
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    right: 50px;
 }
